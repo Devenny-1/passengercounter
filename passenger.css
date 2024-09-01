@@ -36,15 +36,15 @@ button {
     background: darkgreen;
 }
 
+#anchor-btn {
+    background: navy;
+}
 
 .box {
     border: 2px solid blue;
-    padding-top: 100px;
-    padding-bottom: 100px;
     border-radius: 12px;
-    width: 800px;
-    top: 2000px;
-    left: 400px;
-    bottom: 400px;
-    right: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 400px;
+    padding: auto;
 }
