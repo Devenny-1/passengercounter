@@ -5,19 +5,32 @@
 //console.log(count)
 
 let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 
-let count = 0;
+var count = 0;
 
 function increment() {
-    count = count + 1
-    countEl.innerText = count 
+    count += 1
+    countEl.textContent = count 
 }
 
 
 function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
     console.log(count)
+    count = 0
+    countEl.textContent = count 
 } 
 
+function decrease() {
+
+    if (count > 0) {
+        count -= 1
+        countEl.textContent = count
+}
+
+}
 
 let welcomeEl = document.getElementById('welcome-el') 
 

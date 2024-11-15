@@ -18,19 +18,24 @@
     <div class="box">
         
        <h1>People Entered:</h1>
-       <h2 id="count-el">0</h2>
+       <h2 id="count-el" class="increment decrease">0</h2>
 
        <p id="welcome-el"></p>
 
 
        <button id="increment-btn" onclick="increment()">INCREMENT</button>
 
-       <button id="save-btn" onclick="save()">SAVE</button>
+       <button id="decrease-btn" onclick="decrease()">DECREASE</button>
 
-       <button id="anchor-btn"><a href="pass1.html">Click Here</a></button>
+       <button id="save-btn" onclick="save()">SAVE</button>
 
     </div>
 
+    <div class="container">
+        <div class="wrapper"></div>
+          <p id="save-el">Previous Entries:</p>
+        </div>
+    </div>
     
     <script src="passenger.js"></script>
 </body>
